@@ -1,0 +1,165 @@
+
+h1 {
+	color: #bbbfc9;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    margin-top: 80px;
+ }
+ 
+h1 span {
+    font-family: 'Ubuntu';
+    color: #fff;
+    font-weight: 400;
+}
+
+h4 {
+	color: #dadadc;
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+  	font-family: sans-serif;
+  }
+
+/* this background needs to be hosted & replaced */
+body {
+	background-image: url("https://s3.amazonaws.com/uploads.hipchat.com/26029/761210/cRVgVrxvPAboCUo/header-image-full-size.png") !important;
+	background: #292A36;
+	background-repeat: no-repeat;
+	background-position: center top;
+
+}
+
+/* login form */
+.wrapper {	
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 25px 55px 30px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+  }  
+
+
+.form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	@include box-sizing(border-box);
+
+	&:focus {
+	  z-index: 2;
+	}
+}
+
+/* email and password fields */
+input[type="text"] {
+	margin-bottom: 20px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	text-indent: 32px;
+	/* host and replace */ background: url("https://s3.amazonaws.com/uploads.hipchat.com/26029/1378695/hxzVZRic7Xdbmrc/ic_user.svg") no-repeat;
+	background-size: 30px 30px;
+	background-position: 5px 5px; 
+}
+
+input[type="password"] {
+	margin-bottom: 20px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	text-indent: 32px;
+	/* host and replace */ background: url("https://s3.amazonaws.com/uploads.hipchat.com/26029/1378695/m3TJMmIO3YI3jiF/ic_password.svg") no-repeat;
+	background-size: 30px 30px;
+	background-position: 5px 5px;
+}
+
+/* forgot password link styling*/
+/* unvisited link */
+a.forgot:link {
+color:#575757;
+font-weight: normal;
+text-align: center; 
+text-decoration:none;
+display: block;
+margin-top: 30px;
+}
+
+/* unvisited link */
+a.forgot:visited {
+color:#575757; 
+text-decoration:none;
+}
+
+/* mouse over link */
+a.forgot:hover {
+color:#bbbfc9; 
+text-decoration:none;
+} 
+
+/* mouse over link */
+a.forgot:active {
+color:#bbbfc9; 
+text-decoration:none;
+}
+
+
+
+/* footer */
+footer { 
+    display: block;
+    color: #fff;
+	font-family: 'Roboto';
+	text-align: center;
+}
+
+span.footerSpace {
+	padding: 0px 20px 0px 20px;
+}
+
+/* footer links styling */
+/* unvisited link */
+a.footer:link {
+color:#fff; 
+text-decoration:none;
+}
+
+/* unvisited link */
+a.footer:visited {
+color:#fff; 
+text-decoration:none;
+}
+
+/* mouse over link */
+a.footer:hover {
+color:#bbbfc9; 
+text-decoration:none;
+} 
+
+/* mouse over link */
+a.footer:active {
+color:#bbbfc9; 
+text-decoration:none;
+}  
+
+.copyright {
+  /*position: fixed;*/
+  right: 0;
+  /*bottom: 0;*/
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7)
+}
+
+
+/* login button */
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 20px !important;
