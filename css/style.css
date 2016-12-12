@@ -1,4 +1,3 @@
-
 h1 {
 	color: #bbbfc9;
     font-family: 'Ubuntu';
@@ -21,13 +20,12 @@ html {
   	font-family: sans-serif;
   }
 
-/* this background needs to be hosted & replaced */
+
 body {
-	background-image: url("https://s3.amazonaws.com/uploads.hipchat.com/26029/761210/cRVgVrxvPAboCUo/header-image-full-size.png") !important;
+	background-image: url("/images/background.jpg") !important;
 	background: #292A36;
 	background-repeat: no-repeat;
 	background-position: center top;
-
 }
 
 /* login form */
@@ -43,7 +41,6 @@ body {
   background-color: #fff;
   border: 1px solid rgba(0,0,0,0.1);
   }  
-
 
 .form-control {
 	position: relative;
@@ -63,7 +60,7 @@ input[type="text"] {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 	text-indent: 32px;
-	/* host and replace */ background: url("https://s3.amazonaws.com/uploads.hipchat.com/26029/1378695/hxzVZRic7Xdbmrc/ic_user.svg") no-repeat;
+	/* host and replace */ background: url("images/ic_user.svg") no-repeat;
 	background-size: 30px 30px;
 	background-position: 5px 5px; 
 }
@@ -73,7 +70,7 @@ input[type="password"] {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	text-indent: 32px;
-	/* host and replace */ background: url("https://s3.amazonaws.com/uploads.hipchat.com/26029/1378695/m3TJMmIO3YI3jiF/ic_password.svg") no-repeat;
+	/* host and replace */ background: url("images/ic_password.svg") no-repeat;
 	background-size: 30px 30px;
 	background-position: 5px 5px;
 }
@@ -106,8 +103,6 @@ a.forgot:active {
 color:#bbbfc9; 
 text-decoration:none;
 }
-
-
 
 /* footer */
 footer { 
@@ -155,7 +150,6 @@ text-decoration:none;
   text-align: center;
   color: rgba(255, 255, 255, 0.7)
 }
-
 
 /* login button */
 .btn-lg {
