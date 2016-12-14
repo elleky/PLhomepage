@@ -22,7 +22,7 @@ html {
 
 
 body {
-	background-image: url("/images/background.jpg") !important;
+	background-image: url("../images/background.jpg") !important;
 	background: #292A36;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -60,7 +60,7 @@ input[type="text"] {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 	text-indent: 32px;
-	/* host and replace */ background: url("images/ic_user.svg") no-repeat;
+	/* host and replace */ background: url("../images/ic_user.svg") no-repeat;
 	background-size: 30px 30px;
 	background-position: 5px 5px; 
 }
@@ -70,7 +70,7 @@ input[type="password"] {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	text-indent: 32px;
-	/* host and replace */ background: url("images/ic_password.svg") no-repeat;
+	/* host and replace */ background: url("../images/ic_password.svg") no-repeat;
 	background-size: 30px 30px;
 	background-position: 5px 5px;
 }
